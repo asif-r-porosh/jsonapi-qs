@@ -1,5 +1,5 @@
 {
-  "name": "@do/jsonapi-qs",
+  "name": "jsonapi-qs",
   "version": "1.0.0",
   "description": "JSON:API 1.1 compliant URL query string parser for Node.js 18+",
   "main": "src/jsonapi-qs.js",

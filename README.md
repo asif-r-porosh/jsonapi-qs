@@ -1,9 +1,9 @@
-# @do/jsonapi-qs
+# jsonapi-qs
 
 A strict [JSON:API 1.1](https://jsonapi.org/) compliant URL query string and endpoint parser for Node.js 18+. Takes a request URL and returns a structured JavaScript object — no surprises, no opinions, just the spec.
 
 ```js
-const JsonApiQs = require('@do/jsonapi-qs');
+const JsonApiQs = require('jsonapi-qs');
 const parser = new JsonApiQs();
 
 parser.parseRequest('/articles/5?include=author&fields[article]=title,body&sort=-createdon');
@@ -13,7 +13,7 @@ parser.parseRequest('/articles/5?include=author&fields[article]=title,body&sort=
 ## Install
 
 ```sh
-npm install @do/jsonapi-qs
+npm install jsonapi-qs
 ```
 
 ## Quick Start
@@ -22,7 +22,7 @@ Drop it into any consumer. `parseRequest(url)` does the rest. For example, in  a
 
 ```js
 const http = require('node:http');
-const JsonApiQs = require('@do/jsonapi-qs');
+const JsonApiQs = require('jsonapi-qs');
 
 const parser = new JsonApiQs();
 
