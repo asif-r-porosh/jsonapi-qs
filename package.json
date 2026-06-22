@@ -1,0 +1,44 @@
+{
+  "name": "@do/jsonapi-qs",
+  "version": "1.0.0",
+  "description": "JSON:API 1.1 compliant URL query string parser for Node.js 18+",
+  "main": "src/jsonapi-qs.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "coverage": "c8 node --test"
+  },
+  "keywords": [
+    "jsonapi",
+    "json-api",
+    "json:api",
+    "query-string",
+    "query",
+    "parser",
+    "url-parser",
+    "request-parser",
+    "filter",
+    "sort",
+    "include",
+    "sparse-fieldsets",
+    "pagination",
+    "endpoint",
+    "node",
+    "nodejs"
+  ],
+  "author": "Asif R. Porosh",
+  "license": "ISC",
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do/jsonapi-qs.git"
+  },
+  "devDependencies": {
+    "c8": "^11.0.0"
+  }
+}
